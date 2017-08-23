@@ -1,0 +1,37 @@
+/* --- Fonts --- */
+
+//-------------------------------------------------------------------------------
+// Fonts
+//-------------------------------------------------------------------------------
+
+// Default Weights
+
+// Lora: 400,400italic
+// Oswald: 400,600
+
+// Serif Body Font
+body {
+	font-family: $font-body;
+	font-weight: 400;
+}
+
+// Thick Heading Font
+.post-title h2,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.logo-name h1, 
+.sidebar-widget-title,
+#search-term {
+	font-family: $font-heading;
+	font-weight: 600;
+}
+
+// Thinner Heading Font
+#pbd-alp-load-posts,
+#sidebar-name,
+.post-date,
+.return {
+	font-family: $font-heading;
+	font-weight: 400;
+}
